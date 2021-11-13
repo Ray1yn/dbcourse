@@ -2,7 +2,7 @@ package com.dbcourse.community.provider;
 
 public class GithubUser {
     private String name;
-    private long id;
+    private Long id;
     private String bio;
 
     public String getName() {
@@ -13,7 +13,7 @@ public class GithubUser {
         this.name = name;
     }
 
-    public long getId() {
+    public Long getId() {
         return id;
     }
 
